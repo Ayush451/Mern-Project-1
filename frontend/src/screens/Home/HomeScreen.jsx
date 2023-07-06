@@ -3,10 +3,12 @@ import Hero from '../../components/Hero'
 import Sidebar from '../../components/sidebar/Sidebar'
 import Navbar from '../../components/navbar/Navbar'
 import Widget from '../../components/widgets/Widget'
+import Featured from '../../components/featured/Featured'
+import Chart from '../../components/chart/Chart'
 const HomeScreen = () => {
   return (
 
-    <div className='HomeScreen'>
+    <div className='home'>
         <Sidebar/>
         <div className='homeContainer'>
           <Navbar/>
@@ -16,7 +18,10 @@ const HomeScreen = () => {
             <Widget type="earning"/>
             <Widget type="balance"/>
           </div>
-          
+          <div className="charts">
+            <Featured/>
+            <Chart/>
+          </div>
         </div>
     <Hero/>
     </div>

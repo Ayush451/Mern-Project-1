@@ -12,6 +12,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+          align-items: center;
+
     }
 
     .title{
@@ -48,6 +50,7 @@
     .icon{
         font-size: 30px;
         padding: 5px;
+        background-color: rgba(128, 0, 128, 0.645) ;
         border-radius: 5px;
         align-self: flex-end;
     }
