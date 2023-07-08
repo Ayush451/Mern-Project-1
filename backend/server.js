@@ -1,4 +1,5 @@
 import express from "express";
+import cookieSession from "cookie-session";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
